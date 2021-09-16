@@ -4,7 +4,7 @@ jest.setTimeout(30000); // default puppeteer timeout
 describe("button", () => {
   let browser = null;
   let page = null;
-  const baseUrl = "http://localhost:9000";
+  const baseUrl = "https://dengreen.github.io/ahj-05new/";
   beforeAll(async () => {
     browser = await puppetteer.launch({
       headless: false, // show gui
