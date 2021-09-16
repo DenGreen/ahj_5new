@@ -1,0 +1,36 @@
+div {
+  width: 1000px;
+}
+
+.btn {
+  display: block;
+  color: #fff;
+  background-color: #dc3545;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #dc3545;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
+.popover {
+  position: absolute;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.title-popover {
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  background-color: grey;
+  display: block;
+}
+
+.text-popover {
+  padding: 10px;
+  margin: 0;
+}
